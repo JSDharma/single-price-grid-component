@@ -1,0 +1,108 @@
+body{
+    min-height: 100vh;
+    background-color: hsl(204, 43%, 93%);
+    
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+
+}
+.row{
+    margin: 160px 25%;
+    box-shadow:  0px 15px 30px 0px rgb(0 81 171 / 15%)
+
+    
+}
+
+/* column1 styles */
+.column1{
+    background-color: white;
+    padding: 2.5rem;
+    line-height: 2;
+    border-radius: 5px 5px 0 0;
+
+}
+
+.column1 h1{
+    color: #2AB3B1;
+    font-weight: 700;
+    font-size: 24px;
+
+}
+
+.column1 h3{
+    color : #C0DF33;
+    font-size: 20px;
+}
+
+.column1 p{
+    color : #9AA7BE;
+}
+
+/* column2 section */
+
+.column2{
+    background-color: #2AB3B1;
+    color: #fff;
+    padding: 2.5rem;
+    line-height: 2;
+    border-radius: 0 0 0 5px;
+}
+
+.column2 h2{
+    font-size: 20px;
+}
+
+.amount{
+    font-size: 28px;
+    font-weight: 700 ;
+}
+
+.per-month{
+    opacity: 0.75;
+
+}
+
+.btn{
+    background-color: #C0DF33;
+    color: white;
+    padding: .7rem;
+    font-size: 20px;
+}
+
+/* column3 section */
+
+.column3
+{
+ background-color: #4ABFBC;
+ color: #fff;
+ padding: 2.5rem;
+ 
+ border-radius: 0 0 5px 0;
+}
+
+.column3 h2{
+    font-size: 20px;
+    margin-bottom: 2em;
+    line-height: 1.2;
+}
+
+.column3 p{
+    opacity: .75;
+}
+ 
+.attribution {
+     font-size: 11px; text-align: center;
+     }
+.attribution a {
+     color: hsl(228, 45%, 44%); 
+    }
+
+
+@media (max-width : 993px){
+    .column2{
+        border-radius: 0px;
+    }
+    .column3{
+        border-radius: 0 0 5px 5px;
+    }
+}
